@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1535947945 source:c:\users\no_user\desktop\triad algorithm\main.c
+	<stdio.h>
+	<stdlib.h>
+	"triad.h"
+
+1535944833 c:\users\no_user\desktop\triad algorithm\triad.h
+
+1535940406 c:\users\no_user\desktop\triad algorithm\\triad.h
+
+1535946966 source:c:\users\no_user\desktop\triad algorithm\triad.c
+	<string.h>
+	<math.h>
+	"triad.h"
+
