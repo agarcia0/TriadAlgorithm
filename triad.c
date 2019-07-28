@@ -39,7 +39,6 @@ void transponse_matrix(float *matrix)
 
 void matrix_multiplication(float *first_matrix, float *second_matrix, float *dest)
 {
-    //using three for later i´ll fix this
     dest[0] = ((first_matrix[0] * second_matrix[0]) + (first_matrix[1] * second_matrix[3]) + (first_matrix[2] * second_matrix[6]));
     dest[1] = ((first_matrix[0] * second_matrix[1]) + (first_matrix[1] * second_matrix[4]) + (first_matrix[2] * second_matrix[7]));
     dest[2] = ((first_matrix[0] * second_matrix[2]) + (first_matrix[1] * second_matrix[5]) + (first_matrix[2] * second_matrix[8]));
